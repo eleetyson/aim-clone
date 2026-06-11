@@ -1,0 +1,17 @@
+{
+  "name": "aim-clone",
+  "version": "5.2.3292",
+  "description": "A loving recreation of AOL Instant Messenger (circa 2002)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "socket.io-client": "^4.8.3"
+  }
+}

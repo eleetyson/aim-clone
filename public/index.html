@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AOL Instant Messenger</title>
+<link rel="stylesheet" href="css/aim.css">
+<link rel="icon" href="img/aim.svg" type="image/svg+xml">
+</head>
+<body>
+  <div id="desktop">
+    <div class="desktop-icon" id="icon-aim" title="AOL Instant Messenger">
+      <img src="img/aim.svg" alt="AIM" width="32" height="32">
+      <span>AOL Instant<br>Messenger</span>
+    </div>
+  </div>
+
+  <div id="taskbar">
+    <button id="startbtn"><span class="start-logo"></span>Start</button>
+    <div class="taskbar-divider"></div>
+    <div id="taskbuttons"></div>
+    <div id="systray">
+      <span id="tray-aim" title="AOL Instant Messenger" style="display:none"><img src="img/aim.svg" width="16" height="16" alt=""></span>
+      <span id="clock"></span>
+    </div>
+  </div>
+
+  <div id="startmenu" style="display:none">
+    <div class="startmenu-side"><span>AIM&nbsp;Clone</span></div>
+    <div class="startmenu-items">
+      <div class="startmenu-item" data-action="aim"><img src="img/aim.svg" width="24" height="24" alt=""> AOL Instant Messenger</div>
+      <div class="startmenu-sep"></div>
+      <div class="startmenu-item" data-action="shutdown"><span class="sm-icon">⏻</span> Shut Down...</div>
+    </div>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="js/sounds.js"></script>
+  <script src="js/wm.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
