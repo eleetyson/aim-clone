@@ -3,6 +3,21 @@
 A loving, full-stack recreation of **AOL Instant Messenger** circa 2002 (AIM 5.x on
 Windows Classic), right down to the running man, the door creak, and SmarterChild.
 
+## How this was built
+
+This entire project was one-shotted by [Claude Code](https://claude.com/claude-code)
+using **Fable 5 on high** from a single prompt:
+
+> build a clone of AOL Instant Messenger (AIM), don't ask me any questions, just try
+> your best to make it as good as possible and to as closely resemble the classic
+> 2000s version as possible in every dimension especially design and sounds
+
+![Sign On](screenshots/sign-on.png)
+
+![SmarterChild conversation](screenshots/smarterchild.png)
+
+![Buddy Info](screenshots/buddy-info.png)
+
 ![Version](https://img.shields.io/badge/version-5.2.3292-ffd200)
 
 ## Running it
